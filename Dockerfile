@@ -28,6 +28,7 @@ RUN apk update && apk add --no-cache bash bc git curl coreutils imagemagick find
     		pandasql \
     		argparse \
     		pandas-profiling \
+		csvkit \
     		Flask && \
     	rm -r /root/.cache && \
     	export PS1="\u@\h:\w$ "
